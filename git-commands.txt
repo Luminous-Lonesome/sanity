@@ -14,16 +14,16 @@ merging those changes into the main branch remotely
 updating your main branch locally
 
 
-#create a new branch called update-readme
-git checkout -b update-readme  
+#create a new branch called branch
+git checkout -b branch  
 
 git status
 
 git add .
-git commit -m "update readme"
+git commit -m "branch"
 
 
-git push -u origin update-readme
+git push -u origin branch
 
 git checkout main
 
