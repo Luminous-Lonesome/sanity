@@ -1,0 +1,30 @@
+git add .
+git commit -m "add sanity files"
+git push origin main
+
+
+
+Most commonly, this would be done by:
+
+creating a "branch" off of the main branch
+committing changes to local files
+pushing that branch to remote
+creating a "pull request" from the branch to main
+merging those changes into the main branch remotely
+updating your main branch locally
+
+
+#create a new branch called update-readme
+git checkout -b update-readme  
+
+git status
+
+git add .
+git commit -m "update readme"
+
+
+git push -u origin update-readme
+
+git checkout main
+
+git pull origin main
