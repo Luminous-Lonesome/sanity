@@ -2,8 +2,6 @@ import { sanityFetch } from "@/sanity/lib/live";
 import { POST_QUERY } from '@/sanity/lib/queries'
 import { Post } from '@/components/Post'
 import { notFound } from 'next/navigation'
-import { PortableText } from "next-sanity";
-import { components } from "@/sanity/portableTextComponents";
 import Link from "next/link";
 
 export default async function Page({
